@@ -28,7 +28,6 @@ cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
       inv.mat = x$get.inv()
       if (!is.null(inv.mat)){
-            # get it from the cache and skips the computation. 
             message("getting cached matrix ...")
             return(inv.mat)
       }
