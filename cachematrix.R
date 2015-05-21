@@ -52,9 +52,9 @@ cacheSolve <- function(x, ...) {
 ##
 ## 3. Convert it to a square matrix form using its length. 
 ##          Example) x <- matrix(v, length(v)/2, length(v)/2)
-## 4. Use the function to chache the matrix at sqm. 
+## 4. Use the function 'makeCacheMatrix' to chache the matrix at sqm. 
 ##          Example) sqm <- makeCacheMatrix(x)
-## 5. Execute the follosing line:
+## 5. Execute the following line:
 ##          cacheSolve(sqm)
 ##
 ## *** NOTE: If the input matrix is singular, R generates the following Error message:
