@@ -3,7 +3,8 @@
 ## 1) Cache the non-singular matrix
 ## and
 ## 2) Caclulate the inverse matrix of the chached matrix.
-## UAGES of two funstions are provided at line 50.
+## UAGES of two funstions are provided from line 43.
+
 
 ## Caching function block: 
 ## This function chaches the input vector converted to a matrix form. 
@@ -36,7 +37,6 @@ cacheSolve <- function(x, ...) {
       x$set.inv(inv.mat)  
       return(inv.mat)    
 }
-
 
 
 
